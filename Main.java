@@ -9,10 +9,14 @@ public class Main {
             return (s1);
         } else if (s1 == null & s2 != null) {
             return (s2);
-        } else if (s1 == null & s2 == null) {
+        }/* else if (s1 == null & s2 == null) {
             return ("");
         }
         return null;
+        */ 
+        else {
+            return "";
+        }
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
